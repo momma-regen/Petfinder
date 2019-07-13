@@ -1,0 +1,1 @@
+export const empty = x =>  !Object.values((!isNaN(parseFloat(x)) && isFinite(x) ? new Array(Math.ceil(Math.abs(x))).fill(1) : (x||""))).length;
